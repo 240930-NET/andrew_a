@@ -1,0 +1,15 @@
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\bin\Debug\net8.0\zero_or_one.exe
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\bin\Debug\net8.0\zero_or_one.deps.json
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\bin\Debug\net8.0\zero_or_one.runtimeconfig.json
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\bin\Debug\net8.0\zero_or_one.dll
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\bin\Debug\net8.0\zero_or_one.pdb
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\zero_or_one.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\zero_or_one.AssemblyInfoInputs.cache
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\zero_or_one.AssemblyInfo.cs
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\zero_or_one.csproj.CoreCompileInputs.cache
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\zero_or_one.sourcelink.json
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\zero_or_one.dll
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\refint\zero_or_one.dll
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\zero_or_one.pdb
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\zero_or_one.genruntimeconfig.cache
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\zero_or_one\obj\Debug\net8.0\ref\zero_or_one.dll
