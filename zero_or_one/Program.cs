@@ -8,7 +8,7 @@ class Program
         int ones = 0;
 
         Console.WriteLine("Are you a Zero or a One? Input your favorite number to find out:");
-        foreach (char c in Console.ReadLine()) {
+        foreach (char c in Console.ReadLine()!) {
             switch(c) {
                 case '0': 
                     zeroes++;

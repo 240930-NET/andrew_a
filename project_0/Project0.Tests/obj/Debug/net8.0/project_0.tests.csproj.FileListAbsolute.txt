@@ -1,0 +1,7 @@
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\project_0\Project0.Tests\obj\Debug\net8.0\project_0.tests.csproj.AssemblyReference.cache
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\project_0\Project0.Tests\obj\Debug\net8.0\project_0.tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\project_0\Project0.Tests\obj\Debug\net8.0\project_0.tests.AssemblyInfoInputs.cache
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\project_0\Project0.Tests\obj\Debug\net8.0\project_0.tests.AssemblyInfo.cs
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\project_0\Project0.Tests\obj\Debug\net8.0\project_0.tests.csproj.CoreCompileInputs.cache
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\project_0\Project0.Tests\obj\Debug\net8.0\project_0.tests.sourcelink.json
+C:\Users\andre\Downloads\Techno Biz\RevatureTraining\andrew_a\project_0\Project0.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_project_0.tests
