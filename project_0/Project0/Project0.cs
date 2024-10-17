@@ -59,20 +59,16 @@ public class WordTranslator {
     }
 
     public string TranslateSentence(string sentence) {
-        if (sentence.Length > 0) {
-            string translated = "";
-            string[] words = sentence.Split(' ');
-            foreach (string word in words) {
-                if (word.Length > 0) {
-                    translated += TranslateWord(word);
-                }
-                translated += " ";
+        string translated = "";
+        string[] words = sentence.Split(' ');
+        foreach (string word in words) {
+            if (word.Length > 0) {
+                translated += TranslateWord(word);
             }
-            translated = translated.Remove(translated.Length - 1);
-            return translated;
-        } else {
-            return sentence;
+            translated += " ";
         }
+        translated = translated.Remove(translated.Length - 1);
+        return translated;
     }
 
     public string TranslateWord(string word) {
@@ -138,11 +134,17 @@ class Program
     {
         Console.WriteLine("Write something, and I'll translate it to medieval speak!");
         string input = Console.ReadLine()!;
-        WordTranslator translator = new WordTranslator();
-        string translated = translator.TranslateSentence(input);
-        string fileName = "MedievalTranslation.json"; 
-        string jsonString = JsonSerializer.Serialize(translated);
-        File.WriteAllText(fileName, jsonString);
-        Console.WriteLine(File.ReadAllText(fileName));
+        if (input.Length > 0){
+            WordTranslator translator = new WordTranslator();
+            string translated = translator.TranslateSentence(input);
+            Console.WriteLine("What you entered translates to...");
+            Console.WriteLine(translated);
+            string fileName = "MedievalTranslation.json"; 
+            string jsonString = JsonSerializer.Serialize(translated);
+            File.WriteAllText(fileName, jsonString);
+            Console.WriteLine("Translation serialized and saved to "+fileName);
+        } else {
+            throw new ArgumentException("Input cannot be empty string");
+        }
     }
 }
