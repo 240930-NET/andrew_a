@@ -1,5 +1,6 @@
 ﻿﻿using System;
 using System.Text;
+using System.Text.Json;
 using System.Collections.Generic;
 using System.IO;
 
@@ -139,7 +140,9 @@ class Program
         string input = Console.ReadLine()!;
         WordTranslator translator = new WordTranslator();
         string translated = translator.TranslateSentence(input);
-        Console.WriteLine(translated);
-        File.WriteAllText(Environment.CurrentDirectory +  "MedievalTranslation.txt", translated);
+        string fileName = "MedievalTranslation.json"; 
+        string jsonString = JsonSerializer.Serialize(translated);
+        File.WriteAllText(fileName, jsonString);
+        Console.WriteLine(File.ReadAllText(fileName));
     }
 }
