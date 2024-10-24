@@ -1,0 +1,26 @@
+using Microsoft.AspNetCore.Mvc;
+using Project1.API.Service;
+
+namespace Project1.API.Controller;
+
+[Route("api/[controller]")]
+[ApiController]
+public class CreatureController : ControllerBase
+{
+    private readonly ICreatureService _creatureService;
+
+    public CreatureController(ICreatureService creatureService) => _creatureService = creatureService;
+
+    [HttpGet("/pet")]
+    public IActionResult GetBestiary()
+    {
+        var bestiary = _creatureService.GetBestiary();
+        return Ok(bestiary);
+    }
+
+    [HttpGet("/pet/{id}")]
+    public IActionResult GetCreatureById(int id)
+    {
+        throw new NotImplementedException();
+    }
+}
