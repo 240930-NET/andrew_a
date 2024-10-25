@@ -29,13 +29,55 @@ namespace Project1.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
+                    b.Property<string>("Blurb")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Height")
+                        .HasColumnType("float");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Singleton")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("Weight")
+                        .HasColumnType("float");
+
                     b.HasKey("ID");
 
                     b.ToTable("Bestiary");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Blurb = "A giant arthopod covered in heavy scales and venomous barbs.",
+                            Height = 3.0,
+                            Name = "Giant Scorpion",
+                            Singleton = false,
+                            Weight = 70.0
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Blurb = "A carnivorous spherical cactus who catches small insects by rolling over them.",
+                            Height = 1.0,
+                            Name = "Cactorb",
+                            Singleton = false,
+                            Weight = 20.0
+                        },
+                        new
+                        {
+                            ID = 3,
+                            Blurb = "This mummified priest commands swarms of locusts to gather food and treasure to his tomb.",
+                            Height = 6.0,
+                            Name = "Locustus",
+                            Singleton = true,
+                            Weight = 80.0
+                        });
                 });
 #pragma warning restore 612, 618
         }

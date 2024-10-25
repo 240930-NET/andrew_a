@@ -13,4 +13,24 @@ public class CreatureService : ICreatureService
     {
         return _creatureRepository.GetBestiary();
     }
+
+    public Creature GetCreature(string id)
+    {      
+        return _creatureRepository.GetCreature(id);
+    }
+
+    public Creature AddNewCreature(string name, string blurb, double weight, double height)
+    {      
+        return _creatureRepository.AddNewCreature(name, blurb, weight, height);
+    }
+
+    public Creature DuplicateCreature(string id)
+    {      
+        return _creatureRepository.DuplicateCreature(id);
+    }
+
+    public Creature DeleteCreature(string id)
+    {      
+        return _creatureRepository.DeleteCreature(id);
+    }
 }
